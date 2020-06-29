@@ -1,0 +1,314 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Entities/Touchable/Touchable.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Entities/Player/Player.tscn" type="PackedScene" id=2]
+
+[node name="World" type="Spatial"]
+
+[node name="World" type="Spatial" parent="."]
+
+[node name="Touchable" parent="World" instance=ExtResource( 1 )]
+
+[node name="Touchable2" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.01495, 0, 0 )
+
+[node name="Touchable3" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.01495, 0, 0 )
+
+[node name="Touchable4" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.01495, 0, 0 )
+
+[node name="Touchable5" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.01495, 0, 0 )
+
+[node name="Touchable6" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.01495, 0, 0 )
+
+[node name="Touchable7" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.01495, 0, 0 )
+
+[node name="Touchable8" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.01495, 0, 0 )
+
+[node name="Touchable9" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.01495, 0, 0 )
+
+[node name="Touchable10" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.01495, 0, 0 )
+
+[node name="Touchable11" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1 )
+
+[node name="Touchable12" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.01495, 0, 1 )
+
+[node name="Touchable13" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.01495, 0, 1 )
+
+[node name="Touchable14" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.01495, 0, 1 )
+
+[node name="Touchable15" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.01495, 0, 1 )
+
+[node name="Touchable16" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.01495, 0, 1 )
+
+[node name="Touchable17" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.01495, 0, 1 )
+
+[node name="Touchable18" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.01495, 0, 1 )
+
+[node name="Touchable19" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.01495, 0, 1 )
+
+[node name="Touchable20" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.01495, 0, 1 )
+
+[node name="Touchable21" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2 )
+
+[node name="Touchable22" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.01495, 0, 2 )
+
+[node name="Touchable23" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.01495, 0, 2 )
+
+[node name="Touchable24" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.01495, 0, 2 )
+
+[node name="Touchable25" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.01495, 0, 2 )
+
+[node name="Touchable26" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.01495, 0, 2 )
+
+[node name="Touchable27" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.01495, 0, 2 )
+
+[node name="Touchable28" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.01495, 0, 2 )
+
+[node name="Touchable29" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.01495, 0, 2 )
+
+[node name="Touchable30" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.01495, 0, 2 )
+
+[node name="Touchable31" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3 )
+
+[node name="Touchable32" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.01495, 0, 3 )
+
+[node name="Touchable33" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.01495, 0, 3 )
+
+[node name="Touchable34" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.01495, 0, 3 )
+
+[node name="Touchable35" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.01495, 0, 3 )
+
+[node name="Touchable36" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.01495, 0, 3 )
+
+[node name="Touchable37" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.01495, 0, 3 )
+
+[node name="Touchable38" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.01495, 0, 3 )
+
+[node name="Touchable39" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.01495, 0, 3 )
+
+[node name="Touchable40" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.01495, 0, 3 )
+
+[node name="Touchable41" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4 )
+
+[node name="Touchable42" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.01495, 0, 4 )
+
+[node name="Touchable43" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.01495, 0, 4 )
+
+[node name="Touchable44" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.01495, 0, 4 )
+
+[node name="Touchable45" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.01495, 0, 4 )
+
+[node name="Touchable46" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.01495, 0, 4 )
+
+[node name="Touchable47" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.01495, 0, 4 )
+
+[node name="Touchable48" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.01495, 0, 4 )
+
+[node name="Touchable49" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.01495, 0, 4 )
+
+[node name="Touchable50" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.01495, 0, 4 )
+
+[node name="Touchable51" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 5 )
+
+[node name="Touchable52" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.01495, 0, 5 )
+
+[node name="Touchable53" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.01495, 0, 5 )
+
+[node name="Touchable54" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.01495, 0, 5 )
+
+[node name="Touchable55" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.01495, 0, 5 )
+
+[node name="Touchable56" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.01495, 0, 5 )
+
+[node name="Touchable57" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.01495, 0, 5 )
+
+[node name="Touchable58" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.01495, 0, 5 )
+
+[node name="Touchable59" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.01495, 0, 5 )
+
+[node name="Touchable60" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.01495, 0, 5 )
+
+[node name="Touchable61" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 6 )
+
+[node name="Touchable62" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.01495, 0, 6 )
+
+[node name="Touchable63" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.01495, 0, 6 )
+
+[node name="Touchable64" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.01495, 0, 6 )
+
+[node name="Touchable65" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.01495, 0, 6 )
+
+[node name="Touchable66" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.01495, 0, 6 )
+
+[node name="Touchable67" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.01495, 0, 6 )
+
+[node name="Touchable68" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.01495, 0, 6 )
+
+[node name="Touchable69" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.01495, 0, 6 )
+
+[node name="Touchable70" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.01495, 0, 6 )
+
+[node name="Touchable71" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 7 )
+
+[node name="Touchable72" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.01495, 0, 7 )
+
+[node name="Touchable73" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.01495, 0, 7 )
+
+[node name="Touchable74" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.01495, 0, 7 )
+
+[node name="Touchable75" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.01495, 0, 7 )
+
+[node name="Touchable76" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.01495, 0, 7 )
+
+[node name="Touchable77" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.01495, 0, 7 )
+
+[node name="Touchable78" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.01495, 0, 7 )
+
+[node name="Touchable79" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.01495, 0, 7 )
+
+[node name="Touchable80" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.01495, 0, 7 )
+
+[node name="Touchable81" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 8 )
+
+[node name="Touchable82" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.01495, 0, 8 )
+
+[node name="Touchable83" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.01495, 0, 8 )
+
+[node name="Touchable84" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.01495, 0, 8 )
+
+[node name="Touchable85" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.01495, 0, 8 )
+
+[node name="Touchable86" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.01495, 0, 8 )
+
+[node name="Touchable87" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.01495, 0, 8 )
+
+[node name="Touchable88" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.01495, 0, 8 )
+
+[node name="Touchable89" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.01495, 0, 8 )
+
+[node name="Touchable90" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.01495, 0, 8 )
+
+[node name="Touchable91" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 9 )
+
+[node name="Touchable92" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.01495, 0, 9 )
+
+[node name="Touchable93" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.01495, 0, 9 )
+
+[node name="Touchable94" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.01495, 0, 9 )
+
+[node name="Touchable95" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.01495, 0, 9 )
+
+[node name="Touchable96" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.01495, 0, 9 )
+
+[node name="Touchable97" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.01495, 0, 9 )
+
+[node name="Touchable98" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.01495, 0, 9 )
+
+[node name="Touchable99" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.01495, 0, 9 )
+
+[node name="Touchable100" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.01495, 0, 9 )
+
+[node name="Player" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.83642, 0.496, 4.85817 )
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.906308, 0.422618, 0, -0.422618, 0.906308, 4.5, 5, 15 )
+fov = 40.0

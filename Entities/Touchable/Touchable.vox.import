@@ -1,0 +1,16 @@
+[remap]
+
+importer="MagicaVoxel.With.Extensions"
+type="Mesh"
+path="res://.import/Touchable.vox-7eb30e8a0a91568fbf6a88720d71e68c.mesh"
+
+[deps]
+
+source_file="res://Entities/Touchable/Touchable.vox"
+dest_files=[ "res://.import/Touchable.vox-7eb30e8a0a91568fbf6a88720d71e68c.mesh" ]
+
+[params]
+
+Scale=0.05
+GreedyMeshGenerator=false
+SnapToGround=false
