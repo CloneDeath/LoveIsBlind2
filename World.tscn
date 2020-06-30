@@ -483,4 +483,5 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.5, 0.5, 5.5 )
 [node name="Camera" type="Camera" parent="."]
 transform = Transform( 1, 0, 0, 0, 0.906308, 0.422618, 0, -0.422618, 0.906308, 4.5, 5, 15 )
 environment = SubResource( 1 )
+current = true
 fov = 40.0

@@ -12,5 +12,5 @@ dest_files=[ "res://.import/Touchable.vox-7eb30e8a0a91568fbf6a88720d71e68c.mesh"
 [params]
 
 Scale=0.05
-GreedyMeshGenerator=false
+GreedyMeshGenerator=true
 SnapToGround=false

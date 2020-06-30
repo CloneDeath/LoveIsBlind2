@@ -19,7 +19,7 @@ namespace LoveIsBlind2.Entities.Player {
 			var bodies = RevealArea.GetOverlappingBodies();
 			foreach (var body in bodies) {
 				if (!(body is Touchable.Touchable touchable)) continue;
-				touchable.Reveal();
+				touchable.Reveal(GlobalTransform.origin);
 			}
 		}
 	}
