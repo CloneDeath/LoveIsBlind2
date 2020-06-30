@@ -6,8 +6,7 @@
 
 [sub_resource type="ShaderMaterial" id=1]
 shader = ExtResource( 3 )
-shader_param/my_color = Color( 0.12549, 0.223529, 0.309804, 1 )
-shader_param/strength_fade = 1.0
+shader_param/strength_fade = 10.0
 shader_param/strength_speed = 3.0
 shader_param/strength = 100.0
 shader_param/touch_point = null

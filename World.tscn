@@ -336,6 +336,30 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.01495, 0, 5 )
 [node name="Touchable53" parent="World" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.01495, 0, 5 )
 
+[node name="Touchable63" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.01495, 0, 6 )
+
+[node name="Touchable64" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.01495, 0, 7 )
+
+[node name="Touchable73" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.01495, 0, 8 )
+
+[node name="Touchable74" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.01495, 0, 9 )
+
+[node name="Touchable83" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.01495, 0, 9 )
+
+[node name="Touchable84" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.01495, 0, 8 )
+
+[node name="Touchable93" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.01495, 0, 7 )
+
+[node name="Touchable94" parent="World" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.01495, 0, 6 )
+
 [node name="Touchable54" parent="World" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.01495, 0, 5 )
 
@@ -363,12 +387,6 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 6 )
 [node name="Touchable62" parent="World" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.01495, 0, 6 )
 
-[node name="Touchable63" parent="World" instance=ExtResource( 1 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.01495, 0, 6 )
-
-[node name="Touchable64" parent="World" instance=ExtResource( 1 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.01495, 0, 6 )
-
 [node name="Touchable65" parent="World" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.01495, 0, 6 )
 
@@ -392,12 +410,6 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 7 )
 
 [node name="Touchable72" parent="World" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.01495, 0, 7 )
-
-[node name="Touchable73" parent="World" instance=ExtResource( 1 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.01495, 0, 7 )
-
-[node name="Touchable74" parent="World" instance=ExtResource( 1 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.01495, 0, 7 )
 
 [node name="Touchable75" parent="World" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.01495, 0, 7 )
@@ -423,12 +435,6 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 8 )
 [node name="Touchable82" parent="World" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.01495, 0, 8 )
 
-[node name="Touchable83" parent="World" instance=ExtResource( 1 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.01495, 0, 8 )
-
-[node name="Touchable84" parent="World" instance=ExtResource( 1 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.01495, 0, 8 )
-
 [node name="Touchable85" parent="World" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.01495, 0, 8 )
 
@@ -452,12 +458,6 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 9 )
 
 [node name="Touchable92" parent="World" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.01495, 0, 9 )
-
-[node name="Touchable93" parent="World" instance=ExtResource( 1 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.01495, 0, 9 )
-
-[node name="Touchable94" parent="World" instance=ExtResource( 1 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.01495, 0, 9 )
 
 [node name="Touchable95" parent="World" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.01495, 0, 9 )

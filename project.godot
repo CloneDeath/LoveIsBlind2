@@ -26,8 +26,8 @@ enabled=PoolStringArray( "MagicaVoxel_Importer_with_Extensions" )
 [importer_defaults]
 
 MagicaVoxel.With.Extensions={
-"GreedyMeshGenerator": false,
-"Scale": 0.062,
+"GreedyMeshGenerator": true,
+"Scale": 0.05,
 "SnapToGround": false
 }
 
