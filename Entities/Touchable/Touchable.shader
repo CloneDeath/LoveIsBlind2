@@ -10,8 +10,9 @@ uniform vec3 touch_point;
 void fragment() {
 	vec4 pos = CAMERA_MATRIX * vec4(VERTEX, 1.0);
 	float dist = (-length(pos.xyz - touch_point)*strength_fade) + strength * strength_speed * strength_fade;
-	ALPHA = 1.0;
 	
 	float amount = clamp(dist, 0.0, 1.0);
-	ALBEDO = mix(vec3(8, 20, 30)/255.0, COLOR.rgb, amount);
+	ALPHA = 1.0;
+	ALBEDO = mix(vec3(16, 40, 60)/255.0, COLOR.rgb, amount);
+	NORMAL = amount > 0.0 ? NORMAL : vec3(0, -1, -1);
 }
