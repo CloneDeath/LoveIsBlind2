@@ -19,14 +19,14 @@ namespace LoveIsBlind2.Entities.Touchable {
 				Mesh.SetSurfaceMaterial(i, material);
 			}
 
-			Visible = false;
+			//Visible = false;
 			SetParam("strength", 0);
 		}
 
 		public void Reveal(Vector3 from) {
 			if (Touched) return;
 			Touched = true;
-			Visible = true;
+			//Visible = true;
 			SetParam("touch_point", from);
 		}
 
