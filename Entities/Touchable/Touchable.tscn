@@ -1,17 +1,17 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Entities/Touchable/Touchable.vox" type="ArrayMesh" id=1]
+[ext_resource path="res://Entities/Touchable/Touchable.cs" type="Script" id=2]
 
 [sub_resource type="BoxShape" id=1]
 extents = Vector3( 0.5, 0.5, 0.5 )
 
-[node name="Touchable" type="Spatial"]
+[node name="Touchable" type="StaticBody"]
+script = ExtResource( 2 )
 
-[node name="Touchable" type="MeshInstance" parent="."]
+[node name="Mesh" type="MeshInstance" parent="."]
 mesh = ExtResource( 1 )
 material/0 = null
 
-[node name="StaticBody" type="StaticBody" parent="."]
-
-[node name="CollisionShape" type="CollisionShape" parent="StaticBody"]
+[node name="CollisionShape" type="CollisionShape" parent="."]
 shape = SubResource( 1 )
